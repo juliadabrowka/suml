@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, f1_score
 import matplotlib.pyplot as plt
 from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 from skops.io._persist import get_untrusted_types, load
-from skops.io as sio
+import skops.io as sio
 
 
 # Loading the Dataset
